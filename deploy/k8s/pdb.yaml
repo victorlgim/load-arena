@@ -1,0 +1,10 @@
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: load-arena
+  namespace: load-arena
+spec:
+  minAvailable: 1
+  selector:
+    matchLabels:
+      app: load-arena
