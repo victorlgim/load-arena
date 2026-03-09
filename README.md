@@ -1,4 +1,4 @@
-# Load Arena
+# Kube Load Lab
 
 Mini aplicação para testar **concorrência HTTP**, **autoscaling** e **observabilidade** com Kubernetes.
 
@@ -179,3 +179,4 @@ Faça carga no `/cpu` e veja os Pods crescerem.
 ---
 
 Se quiser contribuir ou sugerir melhorias, fique à vontade 👍
+
